@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina UEL</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="assets\img\favicon.png">
+</head>
+
+<body>
+
+    <input type="checkbox" aria-Label="Fechar menu" id="fechar-menu" class="fechar-menu" role="button">
+    <label class="fechar-menu-label" for="fechar-menu" title="fechar menu"></label>
+
+    <aside class="menu secondary-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('fechar-menu').checked = false;">
+                <a href="#home"><img src="assets\img\logo-uel.svg" alt="Logo Uel"></a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('fechar-menu').checked = false;">
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#treinamentos">Treinamentos</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class=" home main-bg section">
+        <div class="main-content home-content">
+            <div class="home-text">
+                <h2>Universidade Estadual de Londrina</h2>
+                <p>
+                    A Universidade Estadual de Londrina é uma instituição de ensino superior pública, localizada na
+                    cidade
+                    de
+                    Londrina, estado do Paraná, no Brasil. Famosa pela sua qualidade de ensino, é uma das maiores e
+                    principais
+                    universidades estaduais do Brasil, trazendo estudantes de todo o país.
+                </p>
+            </div>
+            <div class="home-img">
+                <img src="assets\img\Good team-pana.svg" alt="Good team-pana">
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class=" grid-one section secondary-bg">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading galeria-heading">Galeria</h2>
+            <div class="grid">
+                <div class="galeria-img">
+                    <img src="assets\img\uel\calcadao.png" alt="Calçadão UEL">
+                </div>
+                <div class="galeria-img">
+                    <img src="assets\img\uel\CCE.png" alt="Centro de Ciências Exatas">
+                </div>
+                <div class="galeria-img">
+                    <img src="assets\img\uel\letreiro.png" alt="Letreiro da UEL">
+                </div>
+                <div class="galeria-img">
+                    <img src="assets\img\uel\letreiro2.png" alt="Letreiro do Calçadão">
+                </div>
+                <div class="galeria-img">
+                    <img src="assets\img\uel\macaco.png" alt="Um Macaco">
+                </div>
+                <div class="galeria-img">
+                    <img src="assets\img\uel\RU.png" alt="Restaurante Universitário">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="treinamentos" class=" grid-one section main-bg">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Treinamentos</h2>
+            <p class="grid-description"></p>
+            <div class="grid">
+                <article>
+                    <h3>Treinamento Portal Capes</h3>
+                    <p>Este treinamento tem por objetivo capacitar o usuário para o uso eficiente dos recursos
+                        informacionais disponíveis no Portal Capes. Possui carga horária de 2 horas, é um serviço
+                        gratuito e está disponível para alunos, docentes, servidores e comunidade externa.</p>
+                </article>
+                <article>
+                    <h3>Integração do usuário</h3>
+                    <p>A Integração do Usuário visa apresentar os espaços, serviços e acervos oferecidos pelo Sistema de
+                        Bibliotecas. Este serviço esta disponível para alunos, docentes, servidores e comunidade
+                        externa, é um serviço gratuito e sua solicitação deve ser previamente agendada.</p>
+                </article>
+                <article>
+                    <h3>Trabalhos Científicos</h3>
+                    <p>Este serviço tem por objetivo capacitar o usuário na apresentação formal de trabalhos científicos
+                        de acordo com a norma escolhida. Possui carga horária de 2 horas, é um serviço gratuito e está
+                        disponível para alunos, docentes, servidores e comunidade externa.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="cardapio" class="section secondary-bg">
+        <div class="main-content cardapio-content cardapio-heading">
+            <h2>Cardápio</h2>
+            <p><b>Prezados usuários do Restaurante Universitário</b><br>Considerando do Ato Executivo nº 61/2020 de 08
+                de dezembro de 2020.</p>
+            <p>Comunicamos que a partir de 14/12/2020 (2ªfeira), NÃO HAVERÁ atendimento no Restaurante
+                Universitário (RU). Salientamos que no mês de Janeiro/21, os servidores do RU estarão em férias
+                coletivas, tambem não havendo atendimento.</p>
+
+            <div class="menu-spacing"></div>
+
+            <div class="responsive-table">
+                <table>
+                    <caption><b>Obs: Cardápio sujeito a aterações SEM aviso prévio.</b></caption>
+                    <thead class="main-bg">
+                        <tr>
+                            <th>Segunda-Feira</th>
+                            <th>Terça-Feira</th>
+                            <th>Quarta-Feira</th>
+                            <th>Quinta-Feira</th>
+                            <th>Sexta-Feira</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Arroz Branco</td>
+                            <td>Arroz Branco</td>
+                            <td>Arroz Branco</td>
+                            <td rowspan="6"><img src="assets\img\joinha.jpg" alt="Joinha emoji" width="100rem"></td>
+                            <td>Arroz Branco</td>
+                        </tr>
+                        <tr>
+                            <td>Feijão</td>
+                            <td>Feijão</td>
+                            <td>Feijão</td>
+
+                            <td>Feijão</td>
+                        </tr>
+                        <tr>
+                            <td>Frango assado</td>
+                            <td>Bisteca súina</td>
+                            <td>Strogonoff</td>
+
+                            <td>Filé de merluza</td>
+                        </tr>
+                        <tr>
+                            <td>PTS</td>
+                            <td>PTS</td>
+                            <td>PTS</td>
+
+                            <td>PTS</td>
+                        </tr>
+                        <tr>
+                            <td>Macarrão</td>
+                            <td>Farofa</td>
+                            <td>Batata palha</td>
+
+                            <td>Pure de batatas</td>
+                        </tr>
+                        <tr>
+                            <td>Salada de alface</td>
+                            <td>Salada de pepino</td>
+                            <td>Salada de pepino</td>
+
+                            <td>Salada de acelga</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contato" class=" home main-bg section">
+        <div class="main-content home-content">
+            <div class="home-text">
+                <h2>Contato</h2>
+                <p>
+                    Universidade Estadual de Londrina<br>
+                    Estrutura Administrativa<br>
+                    Rodovia Celso Garcia Cid | PR 445 Km 380<br>
+                    Campus Universitário<br>
+                    Cx. Postal 10.011 | CEP 86.057-970<br>
+                    Londrina - PR
+                </p>
+            </div>
+            <div class="home-img">
+                <img src="assets\img\Conversation-pana.svg" alt="Conversation-pana">
+            </div>
+            <div class="contato-form">
+                <fieldset class="form-grid">
+                    <legend>Fale Conosco</legend>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="primeiro-nome" id="primeiro-nome" placeholder="Seu Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Seu Sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu Email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="sobrenome">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar Mensagem</button>
+                    </div>
+
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer secondary-bg">
+        <p><a target="_blank" rel="nofollow" href="https://www.instagram.com/ueloficial/?hl=pt-br">Instagram 📷</a>
+            <a target="_blank" rel="nofollow" href="https://pt-br.facebook.com/ueloficial/">facebook 📘</a>
+        </p>
+    </footer>
+
+    <a href="#" class="back-to-top">⩒</a>
+
+</body>
+
+</html>
